@@ -1,5 +1,5 @@
 # --- Estágio 1: Compilação ---
-    FROM golang:1.21-alpine AS builder
+    FROM golang:1.25-alpine AS builder
 
     # Define o diretório de trabalho
     WORKDIR /app
